@@ -19,16 +19,18 @@ public Properties p;
 void Setup() throws IOException
 {
 	
+	//Load properties file
+		FileReader file= new FileReader("./src//test//resources//config.properties");
+		p=new Properties();
+		p.load(file);
+		
 	 driver=new EdgeDriver();
  	 driver.manage().deleteAllCookies();
      driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-     driver.get("https://tutorialsninja.com/demo/");
+     driver.get(p.getProperty("appURL"));
      driver.manage().window().maximize();
      
-   //Load properties file
-   		FileReader file= new FileReader("./src//test//resources//config.properties");
-   		p=new Properties();
-   		p.load(file);
+   
 }
 @AfterClass	
 void tearDown()
