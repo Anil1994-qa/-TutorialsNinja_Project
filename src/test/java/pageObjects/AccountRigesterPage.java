@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import junit.framework.Assert;
 import testBase.BasePage;
 
 public class AccountRigesterPage extends BasePage{
@@ -40,6 +41,9 @@ WebElement btnContinue;
 
 @FindBy(xpath="//h1[normalize-space()='Your Account Has Been Created!']")
 WebElement msgConfrimation;
+
+@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']")
+WebElement alertmsg;
 
 //Action Methods
 public void setFirstname(String fname) //This string parameter is taken from test case
@@ -79,6 +83,16 @@ public String getConfirmation()
 	try {
 	return(msgConfrimation.getText());
 	}catch(Exception e) {
+		return(e.getMessage());
+	}
+}
+public String AlertMsg()
+{
+	try
+	{
+		return(alertmsg.getText());
+	}catch(Exception e)
+	{
 		return(e.getMessage());
 	}
 }

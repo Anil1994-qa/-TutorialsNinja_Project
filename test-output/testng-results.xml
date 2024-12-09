@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-08T22:38:54 IST" name="Default suite" finished-at="2024-12-08T22:39:04 IST" duration-ms="10215">
+  <suite started-at="2024-12-09T21:29:38 IST" name="Default suite" finished-at="2024-12-09T21:29:45 IST" duration-ms="7414">
     <groups>
     </groups>
-    <test started-at="2024-12-08T22:38:54 IST" name="Default test" finished-at="2024-12-08T22:39:04 IST" duration-ms="10215">
-      <class name="testCases.TC_SP_003">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.TC_SP_003@598bd2ba]" started-at="2024-12-08T22:38:54 IST" name="Setup" finished-at="2024-12-08T22:38:58 IST" duration-ms="3717" status="PASS">
+    <test started-at="2024-12-09T21:29:38 IST" name="Default test" finished-at="2024-12-09T21:29:45 IST" duration-ms="7414">
+      <class name="testCases.TC_RF_004">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.TC_RF_004@4f5991f6]" started-at="2024-12-09T21:29:38 IST" name="Setup" finished-at="2024-12-09T21:29:42 IST" duration-ms="4227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="SearchProduct()[pri:0, instance:testCases.TC_SP_003@598bd2ba]" started-at="2024-12-08T22:38:58 IST" name="SearchProduct" finished-at="2024-12-08T22:39:03 IST" duration-ms="4891" status="PASS">
+        <test-method signature="verifyRegisterAccountWithoutDetails()[pri:0, instance:testCases.TC_RF_004@4f5991f6]" started-at="2024-12-09T21:29:42 IST" name="verifyRegisterAccountWithoutDetails" finished-at="2024-12-09T21:29:43 IST" duration-ms="1547" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SearchProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SP_003@598bd2ba]" started-at="2024-12-08T22:39:03 IST" name="tearDown" finished-at="2024-12-08T22:39:04 IST" duration-ms="1529" status="PASS">
+        </test-method> <!-- verifyRegisterAccountWithoutDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_004@4f5991f6]" started-at="2024-12-09T21:29:43 IST" name="tearDown" finished-at="2024-12-09T21:29:45 IST" duration-ms="1562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_SP_003 -->
+      </class> <!-- testCases.TC_RF_004 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
