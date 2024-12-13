@@ -6,6 +6,8 @@ import java.time.Duration;
 import java.util.Properties;
 
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterClass;
@@ -14,10 +16,12 @@ import org.testng.annotations.BeforeClass;
 public class BaseClass {
 public WebDriver driver;
 public Properties p;
+public Logger logger;  //log4j
 
 @BeforeClass
 void Setup() throws IOException
 {
+	logger=LogManager.getLogger(this.getClass());
 	
 	//Load properties file
 		FileReader file= new FileReader("./src//test//resources//config.properties");

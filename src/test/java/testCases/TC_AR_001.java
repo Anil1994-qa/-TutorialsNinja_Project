@@ -9,6 +9,8 @@ public class TC_AR_001 extends BaseClass{
 @Test
 public void verity_account_registration()
 {
+	logger.info("TC_AR_001 Test Start");
+	
 	HomePage hp=new HomePage(driver);
 	hp.ClickonmyAccount();
     hp.Clickonregister();
@@ -28,6 +30,8 @@ public void verity_account_registration()
     
   String confirmMsg=regpage.getConfirmation();
   Assert.assertEquals(confirmMsg, "Your Account Has Been Created!");
+  
+  logger.info("TC_AR_001 Test Finish");
     
 }
 
