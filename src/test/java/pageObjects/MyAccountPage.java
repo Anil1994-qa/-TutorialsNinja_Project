@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import junit.framework.Assert;
 import testBase.BasePage;
 
 public class MyAccountPage extends BasePage {
@@ -19,6 +20,12 @@ WebElement myaccount;
 WebElement searchBar;
 @FindBy(xpath="//i[@class='fa fa-search']")
 WebElement btnSearch;
+@FindBy(xpath="//a[normalize-space()='Continue']")
+WebElement continuecta;
+@FindBy(xpath="//a[normalize-space()='Subscribe / unsubscribe to newsletter']")
+WebElement newsbtnlink;
+@FindBy(xpath="//input[@name='newsletter'][@value='1']")
+WebElement radiobtn;
 
 	public boolean MyAccountpage()
 	{
@@ -32,5 +39,17 @@ WebElement btnSearch;
 	public void ClickonSearch()
 	{
 		btnSearch.click();
+	}
+	public void clickOnContinue()
+	{
+		continuecta.click();
+	}
+	public void ClickOnNewsBtn()
+	{
+		newsbtnlink.click();
+	}
+	public void RadioBtn()
+	{
+		Assert.assertTrue(radiobtn.isSelected());
 	}
 }

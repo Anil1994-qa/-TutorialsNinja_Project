@@ -45,6 +45,9 @@ WebElement msgConfrimation;
 @FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']")
 WebElement alertmsg;
 
+@FindBy(xpath="//input[@name='newsletter'][@value='1']")
+WebElement newsbtn;
+
 //Action Methods
 public void setFirstname(String fname) //This string parameter is taken from test case
 {
@@ -96,7 +99,10 @@ public String AlertMsg()
 		return(e.getMessage());
 	}
 }
-
+public void NewsBtn()
+{
+	newsbtn.click();
+}
 
 
 }
