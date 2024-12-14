@@ -18,7 +18,13 @@ WebElement email;
 WebElement pwd;
 @FindBy(xpath="//input[@value='Login']")
 WebElement btnlogin;
+
+@FindBy(xpath="//a[@class='btn btn-primary']")
+WebElement btnContinue;
 	
+@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Register']")
+WebElement Clickregister;
+
 //Action Methods
 public void SetEmail(String email)
 {
@@ -32,5 +38,12 @@ public void clickloginbtn()
 {
 	btnlogin.click();
 }
-
+public void ClickOnContinue()
+{
+	btnContinue.click();
+}
+public void ClickRegister()
+{
+	Clickregister.click();
+}
 }

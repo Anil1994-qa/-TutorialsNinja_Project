@@ -48,6 +48,12 @@ WebElement alertmsg;
 @FindBy(xpath="//input[@name='newsletter'][@value='1']")
 WebElement newsbtn;
 
+@FindBy(xpath="//h1[normalize-space()='Register Account']")
+WebElement registerpage;
+
+@FindBy(xpath="//div[@class='text-danger']")
+WebElement wrongPwdmsg;
+
 //Action Methods
 public void setFirstname(String fname) //This string parameter is taken from test case
 {
@@ -103,6 +109,31 @@ public void NewsBtn()
 {
 	newsbtn.click();
 }
-
-
+public String registerPage()
+{
+	try {
+   return(registerpage.getText());
+	}catch(Exception e)
+	{
+	return(e.getMessage());
+	}
 }
+public String WrongMsg()
+{  
+	try {
+		
+	 return(wrongPwdmsg.getText());
+	 
+	}catch(Exception e)
+	
+	{
+	return(e.getMessage());
+	}
+}
+	
+	
+}
+
+
+
+
