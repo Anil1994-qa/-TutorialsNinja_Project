@@ -9,6 +9,9 @@
       <class name="testCases.TC_LT_002"/>
       <class name="testCases.TC_SP_003"/>
       <class name="testCases.TC_RF_004"/>
+      <class name="testCases.TC_NL_005"/>
+      <class name="testCases.TC_RPF_006"/>
+      <class name="testCases.TC_WPWD_007"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

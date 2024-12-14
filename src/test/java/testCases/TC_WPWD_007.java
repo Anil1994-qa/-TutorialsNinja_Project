@@ -1,12 +1,13 @@
 package testCases;
 
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import pageObjects.AccountRigesterPage;
 import pageObjects.HomePage;
 
 public class TC_WPWD_007 extends BaseClass{
-
+@Test
 public void VerifyWorngPwdMsg()
 {
 	   HomePage hp=new HomePage(driver);

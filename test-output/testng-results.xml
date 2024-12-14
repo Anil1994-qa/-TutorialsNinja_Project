@@ -1,25 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-14T21:13:37 IST" name="Default suite" finished-at="2024-12-14T21:13:45 IST" duration-ms="8750">
+  <suite started-at="2024-12-14T21:33:18 IST" name="Suite" finished-at="2024-12-14T21:34:29 IST" duration-ms="71688">
     <groups>
     </groups>
-    <test started-at="2024-12-14T21:13:37 IST" name="Default test" finished-at="2024-12-14T21:13:45 IST" duration-ms="8750">
-      <class name="testCases.TC_AR_001">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.TC_AR_001@2320fa6f]" started-at="2024-12-14T21:13:37 IST" name="Setup" finished-at="2024-12-14T21:13:41 IST" duration-ms="4118" status="PASS">
+    <test started-at="2024-12-14T21:33:18 IST" name="Test" finished-at="2024-12-14T21:34:29 IST" duration-ms="71688">
+      <class name="testCases.TC_WPWD_007">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.TC_WPWD_007@19648c40]" started-at="2024-12-14T21:34:21 IST" name="Setup" finished-at="2024-12-14T21:34:25 IST" duration-ms="4374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="verity_account_registration()[pri:0, instance:testCases.TC_AR_001@2320fa6f]" started-at="2024-12-14T21:13:41 IST" name="verity_account_registration" finished-at="2024-12-14T21:13:44 IST" duration-ms="2977" status="PASS">
+        <test-method signature="VerifyWorngPwdMsg()[pri:0, instance:testCases.TC_WPWD_007@19648c40]" started-at="2024-12-14T21:34:25 IST" name="VerifyWorngPwdMsg" finished-at="2024-12-14T21:34:28 IST" duration-ms="2836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyWorngPwdMsg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_WPWD_007@19648c40]" started-at="2024-12-14T21:34:28 IST" name="tearDown" finished-at="2024-12-14T21:34:29 IST" duration-ms="1484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_WPWD_007 -->
+      <class name="testCases.TC_LT_002">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.TC_LT_002@615091b8]" started-at="2024-12-14T21:33:28 IST" name="Setup" finished-at="2024-12-14T21:33:32 IST" duration-ms="4352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifylogin()[pri:0, instance:testCases.TC_LT_002@615091b8]" started-at="2024-12-14T21:33:32 IST" name="verifylogin" finished-at="2024-12-14T21:33:35 IST" duration-ms="2699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LT_002@615091b8]" started-at="2024-12-14T21:33:35 IST" name="tearDown" finished-at="2024-12-14T21:33:36 IST" duration-ms="1449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LT_002 -->
+      <class name="testCases.TC_AR_001">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.TC_AR_001@5e1fa5b1]" started-at="2024-12-14T21:33:18 IST" name="Setup" finished-at="2024-12-14T21:33:23 IST" duration-ms="5281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verity_account_registration()[pri:0, instance:testCases.TC_AR_001@5e1fa5b1]" started-at="2024-12-14T21:33:23 IST" name="verity_account_registration" finished-at="2024-12-14T21:33:26 IST" duration-ms="3242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verity_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_AR_001@2320fa6f]" started-at="2024-12-14T21:13:44 IST" name="tearDown" finished-at="2024-12-14T21:13:45 IST" duration-ms="1577" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_AR_001@5e1fa5b1]" started-at="2024-12-14T21:33:26 IST" name="tearDown" finished-at="2024-12-14T21:33:28 IST" duration-ms="1480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_AR_001 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testCases.TC_RF_004">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.TC_RF_004@4aa83f4f]" started-at="2024-12-14T21:33:47 IST" name="Setup" finished-at="2024-12-14T21:33:51 IST" duration-ms="3514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyRegisterAccountWithoutDetails()[pri:0, instance:testCases.TC_RF_004@4aa83f4f]" started-at="2024-12-14T21:33:51 IST" name="verifyRegisterAccountWithoutDetails" finished-at="2024-12-14T21:33:53 IST" duration-ms="1744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccountWithoutDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_004@4aa83f4f]" started-at="2024-12-14T21:33:53 IST" name="tearDown" finished-at="2024-12-14T21:33:54 IST" duration-ms="1638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_004 -->
+      <class name="testCases.TC_SP_003">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.TC_SP_003@4fce136b]" started-at="2024-12-14T21:33:36 IST" name="Setup" finished-at="2024-12-14T21:33:40 IST" duration-ms="3750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="SearchProduct()[pri:0, instance:testCases.TC_SP_003@4fce136b]" started-at="2024-12-14T21:33:40 IST" name="SearchProduct" finished-at="2024-12-14T21:33:46 IST" duration-ms="5602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SP_003@4fce136b]" started-at="2024-12-14T21:33:46 IST" name="tearDown" finished-at="2024-12-14T21:33:47 IST" duration-ms="1605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_SP_003 -->
+      <class name="testCases.TC_RPF_006">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.TC_RPF_006@260e86a1]" started-at="2024-12-14T21:34:03 IST" name="Setup" finished-at="2024-12-14T21:34:06 IST" duration-ms="3674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyRegisterPagesUsingMultipleWays()[pri:0, instance:testCases.TC_RPF_006@260e86a1]" started-at="2024-12-14T21:34:06 IST" name="VerifyRegisterPagesUsingMultipleWays" finished-at="2024-12-14T21:34:19 IST" duration-ms="12949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisterPagesUsingMultipleWays -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RPF_006@260e86a1]" started-at="2024-12-14T21:34:19 IST" name="tearDown" finished-at="2024-12-14T21:34:21 IST" duration-ms="1565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RPF_006 -->
+      <class name="testCases.TC_NL_005">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.TC_NL_005@43b6123e]" started-at="2024-12-14T21:33:54 IST" name="Setup" finished-at="2024-12-14T21:33:57 IST" duration-ms="3088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyRegistringAccountBySubscribingNewsLetter()[pri:0, instance:testCases.TC_NL_005@43b6123e]" started-at="2024-12-14T21:33:57 IST" name="VerifyRegistringAccountBySubscribingNewsLetter" finished-at="2024-12-14T21:34:01 IST" duration-ms="3726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegistringAccountBySubscribingNewsLetter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_NL_005@43b6123e]" started-at="2024-12-14T21:34:01 IST" name="tearDown" finished-at="2024-12-14T21:34:03 IST" duration-ms="1509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_NL_005 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
