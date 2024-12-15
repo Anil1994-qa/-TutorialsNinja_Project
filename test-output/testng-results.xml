@@ -1,109 +1,561 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-14T21:33:18 IST" name="Suite" finished-at="2024-12-14T21:34:29 IST" duration-ms="71688">
+  <suite started-at="2024-12-15T21:49:16 IST" name="Suite" finished-at="2024-12-15T21:53:11 IST" duration-ms="234920">
     <groups>
     </groups>
-    <test started-at="2024-12-14T21:33:18 IST" name="Test" finished-at="2024-12-14T21:34:29 IST" duration-ms="71688">
+    <test started-at="2024-12-15T21:49:16 IST" name="ChromeTest" finished-at="2024-12-15T21:50:11 IST" duration-ms="55034">
       <class name="testCases.TC_WPWD_007">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.TC_WPWD_007@19648c40]" started-at="2024-12-14T21:34:21 IST" name="Setup" finished-at="2024-12-14T21:34:25 IST" duration-ms="4374" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_WPWD_007@3a393455]" started-at="2024-12-15T21:50:05 IST" name="Setup" finished-at="2024-12-15T21:50:08 IST" duration-ms="2654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="VerifyWorngPwdMsg()[pri:0, instance:testCases.TC_WPWD_007@19648c40]" started-at="2024-12-14T21:34:25 IST" name="VerifyWorngPwdMsg" finished-at="2024-12-14T21:34:28 IST" duration-ms="2836" status="PASS">
+        <test-method signature="VerifyWorngPwdMsg()[pri:0, instance:testCases.TC_WPWD_007@3a393455]" started-at="2024-12-15T21:50:08 IST" name="VerifyWorngPwdMsg" finished-at="2024-12-15T21:50:11 IST" duration-ms="3054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyWorngPwdMsg -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_WPWD_007@19648c40]" started-at="2024-12-14T21:34:28 IST" name="tearDown" finished-at="2024-12-14T21:34:29 IST" duration-ms="1484" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_WPWD_007@3a393455]" started-at="2024-12-15T21:50:11 IST" name="tearDown" finished-at="2024-12-15T21:50:11 IST" duration-ms="383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_WPWD_007 -->
       <class name="testCases.TC_LT_002">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.TC_LT_002@615091b8]" started-at="2024-12-14T21:33:28 IST" name="Setup" finished-at="2024-12-14T21:33:32 IST" duration-ms="4352" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LT_002@3300f4fd]" started-at="2024-12-15T21:49:23 IST" name="Setup" finished-at="2024-12-15T21:49:26 IST" duration-ms="2585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="verifylogin()[pri:0, instance:testCases.TC_LT_002@615091b8]" started-at="2024-12-14T21:33:32 IST" name="verifylogin" finished-at="2024-12-14T21:33:35 IST" duration-ms="2699" status="PASS">
+        <test-method signature="verifylogin()[pri:0, instance:testCases.TC_LT_002@3300f4fd]" started-at="2024-12-15T21:49:26 IST" name="verifylogin" finished-at="2024-12-15T21:49:28 IST" duration-ms="2217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LT_002@615091b8]" started-at="2024-12-14T21:33:35 IST" name="tearDown" finished-at="2024-12-14T21:33:36 IST" duration-ms="1449" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LT_002@3300f4fd]" started-at="2024-12-15T21:49:28 IST" name="tearDown" finished-at="2024-12-15T21:49:29 IST" duration-ms="463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_LT_002 -->
       <class name="testCases.TC_AR_001">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.TC_AR_001@5e1fa5b1]" started-at="2024-12-14T21:33:18 IST" name="Setup" finished-at="2024-12-14T21:33:23 IST" duration-ms="5281" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_AR_001@4aa83f4f]" started-at="2024-12-15T21:49:16 IST" name="Setup" finished-at="2024-12-15T21:49:20 IST" duration-ms="3683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="verity_account_registration()[pri:0, instance:testCases.TC_AR_001@5e1fa5b1]" started-at="2024-12-14T21:33:23 IST" name="verity_account_registration" finished-at="2024-12-14T21:33:26 IST" duration-ms="3242" status="PASS">
+        <test-method signature="verity_account_registration()[pri:0, instance:testCases.TC_AR_001@4aa83f4f]" started-at="2024-12-15T21:49:20 IST" name="verity_account_registration" finished-at="2024-12-15T21:49:23 IST" duration-ms="2965" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verity_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_AR_001@5e1fa5b1]" started-at="2024-12-14T21:33:26 IST" name="tearDown" finished-at="2024-12-14T21:33:28 IST" duration-ms="1480" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_AR_001@4aa83f4f]" started-at="2024-12-15T21:49:23 IST" name="tearDown" finished-at="2024-12-15T21:49:23 IST" duration-ms="436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_AR_001 -->
       <class name="testCases.TC_RF_004">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.TC_RF_004@4aa83f4f]" started-at="2024-12-14T21:33:47 IST" name="Setup" finished-at="2024-12-14T21:33:51 IST" duration-ms="3514" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_004@70ab2d48]" started-at="2024-12-15T21:49:37 IST" name="Setup" finished-at="2024-12-15T21:49:40 IST" duration-ms="2966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="verifyRegisterAccountWithoutDetails()[pri:0, instance:testCases.TC_RF_004@4aa83f4f]" started-at="2024-12-14T21:33:51 IST" name="verifyRegisterAccountWithoutDetails" finished-at="2024-12-14T21:33:53 IST" duration-ms="1744" status="PASS">
+        <test-method signature="verifyRegisterAccountWithoutDetails()[pri:0, instance:testCases.TC_RF_004@70ab2d48]" started-at="2024-12-15T21:49:40 IST" name="verifyRegisterAccountWithoutDetails" finished-at="2024-12-15T21:49:42 IST" duration-ms="1685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterAccountWithoutDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_004@4aa83f4f]" started-at="2024-12-14T21:33:53 IST" name="tearDown" finished-at="2024-12-14T21:33:54 IST" duration-ms="1638" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_004@70ab2d48]" started-at="2024-12-15T21:49:42 IST" name="tearDown" finished-at="2024-12-15T21:49:42 IST" duration-ms="410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_RF_004 -->
       <class name="testCases.TC_SP_003">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.TC_SP_003@4fce136b]" started-at="2024-12-14T21:33:36 IST" name="Setup" finished-at="2024-12-14T21:33:40 IST" duration-ms="3750" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SP_003@ebb6851]" started-at="2024-12-15T21:49:29 IST" name="Setup" finished-at="2024-12-15T21:49:32 IST" duration-ms="2936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="SearchProduct()[pri:0, instance:testCases.TC_SP_003@4fce136b]" started-at="2024-12-14T21:33:40 IST" name="SearchProduct" finished-at="2024-12-14T21:33:46 IST" duration-ms="5602" status="PASS">
+        <test-method signature="SearchProduct()[pri:0, instance:testCases.TC_SP_003@ebb6851]" started-at="2024-12-15T21:49:32 IST" name="SearchProduct" finished-at="2024-12-15T21:49:37 IST" duration-ms="5106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SP_003@4fce136b]" started-at="2024-12-14T21:33:46 IST" name="tearDown" finished-at="2024-12-14T21:33:47 IST" duration-ms="1605" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SP_003@ebb6851]" started-at="2024-12-15T21:49:37 IST" name="tearDown" finished-at="2024-12-15T21:49:37 IST" duration-ms="549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_SP_003 -->
       <class name="testCases.TC_RPF_006">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.TC_RPF_006@260e86a1]" started-at="2024-12-14T21:34:03 IST" name="Setup" finished-at="2024-12-14T21:34:06 IST" duration-ms="3674" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RPF_006@6f152006]" started-at="2024-12-15T21:49:49 IST" name="Setup" finished-at="2024-12-15T21:49:52 IST" duration-ms="2846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="VerifyRegisterPagesUsingMultipleWays()[pri:0, instance:testCases.TC_RPF_006@260e86a1]" started-at="2024-12-14T21:34:06 IST" name="VerifyRegisterPagesUsingMultipleWays" finished-at="2024-12-14T21:34:19 IST" duration-ms="12949" status="PASS">
+        <test-method signature="VerifyRegisterPagesUsingMultipleWays()[pri:0, instance:testCases.TC_RPF_006@6f152006]" started-at="2024-12-15T21:49:52 IST" name="VerifyRegisterPagesUsingMultipleWays" finished-at="2024-12-15T21:50:05 IST" duration-ms="13017" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyRegisterPagesUsingMultipleWays -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RPF_006@260e86a1]" started-at="2024-12-14T21:34:19 IST" name="tearDown" finished-at="2024-12-14T21:34:21 IST" duration-ms="1565" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RPF_006@6f152006]" started-at="2024-12-15T21:50:05 IST" name="tearDown" finished-at="2024-12-15T21:50:05 IST" duration-ms="442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_RPF_006 -->
       <class name="testCases.TC_NL_005">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.TC_NL_005@43b6123e]" started-at="2024-12-14T21:33:54 IST" name="Setup" finished-at="2024-12-14T21:33:57 IST" duration-ms="3088" status="PASS">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_NL_005@5b068087]" started-at="2024-12-15T21:49:42 IST" name="Setup" finished-at="2024-12-15T21:49:45 IST" duration-ms="2842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="VerifyRegistringAccountBySubscribingNewsLetter()[pri:0, instance:testCases.TC_NL_005@43b6123e]" started-at="2024-12-14T21:33:57 IST" name="VerifyRegistringAccountBySubscribingNewsLetter" finished-at="2024-12-14T21:34:01 IST" duration-ms="3726" status="PASS">
+        <test-method signature="VerifyRegistringAccountBySubscribingNewsLetter()[pri:0, instance:testCases.TC_NL_005@5b068087]" started-at="2024-12-15T21:49:45 IST" name="VerifyRegistringAccountBySubscribingNewsLetter" finished-at="2024-12-15T21:49:48 IST" duration-ms="3268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyRegistringAccountBySubscribingNewsLetter -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_NL_005@43b6123e]" started-at="2024-12-14T21:34:01 IST" name="tearDown" finished-at="2024-12-14T21:34:03 IST" duration-ms="1509" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_NL_005@5b068087]" started-at="2024-12-15T21:49:48 IST" name="tearDown" finished-at="2024-12-15T21:49:49 IST" duration-ms="437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_NL_005 -->
-    </test> <!-- Test -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-12-15T21:50:11 IST" name="EdgeTest" finished-at="2024-12-15T21:51:25 IST" duration-ms="73910">
+      <class name="testCases.TC_WPWD_007">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_WPWD_007@ccb4b1b]" started-at="2024-12-15T21:51:16 IST" name="Setup" finished-at="2024-12-15T21:51:21 IST" duration-ms="4645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyWorngPwdMsg()[pri:0, instance:testCases.TC_WPWD_007@ccb4b1b]" started-at="2024-12-15T21:51:21 IST" name="VerifyWorngPwdMsg" finished-at="2024-12-15T21:51:24 IST" duration-ms="2701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyWorngPwdMsg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_WPWD_007@ccb4b1b]" started-at="2024-12-15T21:51:24 IST" name="tearDown" finished-at="2024-12-15T21:51:25 IST" duration-ms="1614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_WPWD_007 -->
+      <class name="testCases.TC_LT_002">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LT_002@3668d4]" started-at="2024-12-15T21:50:21 IST" name="Setup" finished-at="2024-12-15T21:50:26 IST" duration-ms="4738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifylogin()[pri:0, instance:testCases.TC_LT_002@3668d4]" started-at="2024-12-15T21:50:26 IST" name="verifylogin" finished-at="2024-12-15T21:50:28 IST" duration-ms="1931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LT_002@3668d4]" started-at="2024-12-15T21:50:28 IST" name="tearDown" finished-at="2024-12-15T21:50:29 IST" duration-ms="1467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LT_002 -->
+      <class name="testCases.TC_AR_001">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_AR_001@61ce23ac]" started-at="2024-12-15T21:50:11 IST" name="Setup" finished-at="2024-12-15T21:50:16 IST" duration-ms="4588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verity_account_registration()[pri:0, instance:testCases.TC_AR_001@61ce23ac]" started-at="2024-12-15T21:50:16 IST" name="verity_account_registration" finished-at="2024-12-15T21:50:19 IST" duration-ms="3059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verity_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_AR_001@61ce23ac]" started-at="2024-12-15T21:50:19 IST" name="tearDown" finished-at="2024-12-15T21:50:21 IST" duration-ms="2013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_AR_001 -->
+      <class name="testCases.TC_RF_004">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_004@6f2cfcc2]" started-at="2024-12-15T21:50:40 IST" name="Setup" finished-at="2024-12-15T21:50:45 IST" duration-ms="4603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyRegisterAccountWithoutDetails()[pri:0, instance:testCases.TC_RF_004@6f2cfcc2]" started-at="2024-12-15T21:50:45 IST" name="verifyRegisterAccountWithoutDetails" finished-at="2024-12-15T21:50:46 IST" duration-ms="1436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccountWithoutDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_004@6f2cfcc2]" started-at="2024-12-15T21:50:46 IST" name="tearDown" finished-at="2024-12-15T21:50:47 IST" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_004 -->
+      <class name="testCases.TC_SP_003">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SP_003@1c3b9394]" started-at="2024-12-15T21:50:29 IST" name="Setup" finished-at="2024-12-15T21:50:34 IST" duration-ms="4580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="SearchProduct()[pri:0, instance:testCases.TC_SP_003@1c3b9394]" started-at="2024-12-15T21:50:34 IST" name="SearchProduct" finished-at="2024-12-15T21:50:38 IST" duration-ms="4635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SP_003@1c3b9394]" started-at="2024-12-15T21:50:38 IST" name="tearDown" finished-at="2024-12-15T21:50:40 IST" duration-ms="1603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_SP_003 -->
+      <class name="testCases.TC_RPF_006">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RPF_006@4c2cc639]" started-at="2024-12-15T21:50:57 IST" name="Setup" finished-at="2024-12-15T21:51:02 IST" duration-ms="4634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyRegisterPagesUsingMultipleWays()[pri:0, instance:testCases.TC_RPF_006@4c2cc639]" started-at="2024-12-15T21:51:02 IST" name="VerifyRegisterPagesUsingMultipleWays" finished-at="2024-12-15T21:51:15 IST" duration-ms="12744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisterPagesUsingMultipleWays -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RPF_006@4c2cc639]" started-at="2024-12-15T21:51:15 IST" name="tearDown" finished-at="2024-12-15T21:51:16 IST" duration-ms="1573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RPF_006 -->
+      <class name="testCases.TC_NL_005">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_NL_005@7f6f61c8]" started-at="2024-12-15T21:50:47 IST" name="Setup" finished-at="2024-12-15T21:50:52 IST" duration-ms="4601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyRegistringAccountBySubscribingNewsLetter()[pri:0, instance:testCases.TC_NL_005@7f6f61c8]" started-at="2024-12-15T21:50:52 IST" name="VerifyRegistringAccountBySubscribingNewsLetter" finished-at="2024-12-15T21:50:56 IST" duration-ms="3677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegistringAccountBySubscribingNewsLetter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_NL_005@7f6f61c8]" started-at="2024-12-15T21:50:56 IST" name="tearDown" finished-at="2024-12-15T21:50:57 IST" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_NL_005 -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2024-12-15T21:51:25 IST" name="firefoxTest" finished-at="2024-12-15T21:53:11 IST" duration-ms="105921">
+      <class name="testCases.TC_WPWD_007">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_WPWD_007@2cc3ad05]" started-at="2024-12-15T21:52:58 IST" name="Setup" finished-at="2024-12-15T21:53:05 IST" duration-ms="7218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyWorngPwdMsg()[pri:0, instance:testCases.TC_WPWD_007@2cc3ad05]" started-at="2024-12-15T21:53:05 IST" name="VerifyWorngPwdMsg" finished-at="2024-12-15T21:53:07 IST" duration-ms="2039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyWorngPwdMsg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_WPWD_007@2cc3ad05]" started-at="2024-12-15T21:53:07 IST" name="tearDown" finished-at="2024-12-15T21:53:11 IST" duration-ms="3683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_WPWD_007 -->
+      <class name="testCases.TC_LT_002">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_LT_002@2a5b3fee]" started-at="2024-12-15T21:51:40 IST" name="Setup" finished-at="2024-12-15T21:51:48 IST" duration-ms="7933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifylogin()[pri:0, instance:testCases.TC_LT_002@2a5b3fee]" started-at="2024-12-15T21:51:48 IST" name="verifylogin" finished-at="2024-12-15T21:51:50 IST" duration-ms="1641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_LT_002@2a5b3fee]" started-at="2024-12-15T21:51:50 IST" name="tearDown" finished-at="2024-12-15T21:51:54 IST" duration-ms="3643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_LT_002 -->
+      <class name="testCases.TC_AR_001">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_AR_001@ec2cc4]" started-at="2024-12-15T21:51:25 IST" name="Setup" finished-at="2024-12-15T21:51:34 IST" duration-ms="9161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verity_account_registration()[pri:0, instance:testCases.TC_AR_001@ec2cc4]" started-at="2024-12-15T21:51:34 IST" name="verity_account_registration" finished-at="2024-12-15T21:51:37 IST" duration-ms="2286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verity_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_AR_001@ec2cc4]" started-at="2024-12-15T21:51:37 IST" name="tearDown" finished-at="2024-12-15T21:51:40 IST" duration-ms="3729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_AR_001 -->
+      <class name="testCases.TC_RF_004">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RF_004@333dd51e]" started-at="2024-12-15T21:52:10 IST" name="Setup" finished-at="2024-12-15T21:52:18 IST" duration-ms="7813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyRegisterAccountWithoutDetails()[pri:0, instance:testCases.TC_RF_004@333dd51e]" started-at="2024-12-15T21:52:18 IST" name="verifyRegisterAccountWithoutDetails" finished-at="2024-12-15T21:52:19 IST" duration-ms="1218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccountWithoutDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RF_004@333dd51e]" started-at="2024-12-15T21:52:19 IST" name="tearDown" finished-at="2024-12-15T21:52:23 IST" duration-ms="3505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RF_004 -->
+      <class name="testCases.TC_SP_003">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_SP_003@7c1e2a2d]" started-at="2024-12-15T21:51:54 IST" name="Setup" finished-at="2024-12-15T21:52:02 IST" duration-ms="8361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="SearchProduct()[pri:0, instance:testCases.TC_SP_003@7c1e2a2d]" started-at="2024-12-15T21:52:02 IST" name="SearchProduct" finished-at="2024-12-15T21:52:07 IST" duration-ms="4526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_SP_003@7c1e2a2d]" started-at="2024-12-15T21:52:07 IST" name="tearDown" finished-at="2024-12-15T21:52:10 IST" duration-ms="3611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_SP_003 -->
+      <class name="testCases.TC_RPF_006">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_RPF_006@2101b44a]" started-at="2024-12-15T21:52:37 IST" name="Setup" finished-at="2024-12-15T21:52:45 IST" duration-ms="7371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyRegisterPagesUsingMultipleWays()[pri:0, instance:testCases.TC_RPF_006@2101b44a]" started-at="2024-12-15T21:52:45 IST" name="VerifyRegisterPagesUsingMultipleWays" finished-at="2024-12-15T21:52:57 IST" duration-ms="12059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisterPagesUsingMultipleWays -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_RPF_006@2101b44a]" started-at="2024-12-15T21:52:57 IST" name="tearDown" finished-at="2024-12-15T21:52:58 IST" duration-ms="1260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_RPF_006 -->
+      <class name="testCases.TC_NL_005">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_NL_005@52d645b1]" started-at="2024-12-15T21:52:23 IST" name="Setup" finished-at="2024-12-15T21:52:31 IST" duration-ms="8237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyRegistringAccountBySubscribingNewsLetter()[pri:0, instance:testCases.TC_NL_005@52d645b1]" started-at="2024-12-15T21:52:31 IST" name="VerifyRegistringAccountBySubscribingNewsLetter" finished-at="2024-12-15T21:52:34 IST" duration-ms="3122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegistringAccountBySubscribingNewsLetter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_NL_005@52d645b1]" started-at="2024-12-15T21:52:34 IST" name="tearDown" finished-at="2024-12-15T21:52:37 IST" duration-ms="3462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_NL_005 -->
+    </test> <!-- firefoxTest -->
   </suite> <!-- Suite -->
 </testng-results>

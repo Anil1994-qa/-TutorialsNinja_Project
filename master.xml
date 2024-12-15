@@ -4,6 +4,9 @@
 
 <suite name="Suite">
   <test thread-count="5" name="Test">
+	<parameter name="" value="">
+		
+	</parameter>
     <classes>
       <class name="testCases.TC_AR_001"/>
       <class name="testCases.TC_LT_002"/>

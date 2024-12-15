@@ -1,14 +1,23 @@
-21:30:43.383 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Anil kumar N\eclipse-workspace\TutorialsNinja_Project\testng.xml
+21:43:44.212 [TestNG-tests-2] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
+21:43:46.301 [TestNG-tests-1] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
+21:44:41.867 [TestNG-tests-1] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
+21:44:49.696 [TestNG-tests-1] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
+21:45:03.565 [TestNG-tests-2] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
+21:45:05.425 [TestNG-tests-3] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
+21:45:09.297 [TestNG-tests-3] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
+21:45:11.111 [TestNG-tests-2] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
+21:49:16.645 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Anil kumar N\eclipse-workspace\TutorialsNinja_Project\Crossbrowing.xml
 
-21:30:56.558 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Start
-21:30:59.402 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
-21:31:32.929 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
-21:31:37.526 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
-21:33:18.209 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Anil kumar N\eclipse-workspace\TutorialsNinja_Project\testng.xml
-
-21:33:23.639 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Start
-21:33:26.856 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
-21:33:57.832 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
-21:34:01.556 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
+21:49:20.471 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Start
+21:49:23.421 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
+21:49:45.640 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
+21:49:48.906 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
+21:50:16.388 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Start
+21:50:19.441 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
+21:50:52.602 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
+21:50:56.277 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
+21:51:34.879 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Start
+21:51:37.163 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
+21:52:31.398 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
+21:52:34.518 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished

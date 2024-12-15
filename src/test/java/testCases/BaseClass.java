@@ -9,9 +9,12 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 
 public class BaseClass {
 public WebDriver driver;
@@ -19,16 +22,23 @@ public Properties p;
 public Logger logger;  //log4j
 
 @BeforeClass
-void Setup() throws IOException
-{
+@Parameters({"os","browser"})
+public void Setup(String os, String br) throws IOException
+{   
 	logger=LogManager.getLogger(this.getClass());
 	
-	//Load properties file
+	   //Load properties file
 		FileReader file= new FileReader("./src//test//resources//config.properties");
 		p=new Properties();
 		p.load(file);
-		
-	 driver=new EdgeDriver();
+	
+	switch(br.toLowerCase())
+	{
+	case "chrome":driver=new ChromeDriver();break;
+	case "edge":driver=new EdgeDriver();break;
+	case "firefox" : driver=new FirefoxDriver();break;
+	default :System.out.println("Invalid Browser"); //Here return() do if browser is invalid it will stop executing the rest of the code
+	}
  	 driver.manage().deleteAllCookies();
      driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
      driver.get(p.getProperty("appURL"));

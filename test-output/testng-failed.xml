@@ -5,8 +5,8 @@
     <classes>
       <class name="testCases.TC_AR_001">
         <methods>
-          <include name="Setup"/>
           <include name="tearDown"/>
+          <include name="Setup"/>
           <include name="verity_account_registration"/>
         </methods>
       </class> <!-- testCases.TC_AR_001 -->
