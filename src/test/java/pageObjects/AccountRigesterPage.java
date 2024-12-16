@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import junit.framework.Assert;
 import testBase.BasePage;
 
 public class AccountRigesterPage extends BasePage{
@@ -53,6 +52,9 @@ WebElement registerpage;
 
 @FindBy(xpath="//div[@class='text-danger']")
 WebElement wrongPwdmsg;
+
+@FindBy(xpath="//div[@class=\"alert alert-danger alert-dismissible\"]")
+WebElement exisctingemail;
 
 //Action Methods
 public void setFirstname(String fname) //This string parameter is taken from test case
@@ -130,9 +132,21 @@ public String WrongMsg()
 	return(e.getMessage());
 	}
 }
-	
-	
+public String excistingEmail()
+{
+	    try 
+	    {
+		return(exisctingemail.getText());
+	    } 
+	     catch(Exception e)
+		{
+		  return(e.getMessage());
+		}
+	}
 }
+	
+	
+
 
 
 

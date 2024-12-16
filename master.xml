@@ -4,9 +4,9 @@
 
 <suite name="Suite">
   <test thread-count="5" name="Test">
-	<parameter name="" value="">
-		
-	</parameter>
+	<parameter name="os" value="windows"/>
+	<parameter name="browser" value="Edge"/>
+	
     <classes>
       <class name="testCases.TC_AR_001"/>
       <class name="testCases.TC_LT_002"/>
@@ -15,6 +15,7 @@
       <class name="testCases.TC_NL_005"/>
       <class name="testCases.TC_RPF_006"/>
       <class name="testCases.TC_WPWD_007"/>
+      <class name="testCases.TC_RMAIL__008"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

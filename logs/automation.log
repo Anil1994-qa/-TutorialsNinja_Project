@@ -1,23 +1,30 @@
-21:43:44.212 [TestNG-tests-2] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
-21:43:46.301 [TestNG-tests-1] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
-21:44:41.867 [TestNG-tests-1] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
-21:44:49.696 [TestNG-tests-1] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
-21:45:03.565 [TestNG-tests-2] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
-21:45:05.425 [TestNG-tests-3] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
-21:45:09.297 [TestNG-tests-3] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
-21:45:11.111 [TestNG-tests-2] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
-21:49:16.645 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+22:09:21.743 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@1433046b: 16 ms
+22:09:21.772 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@65a4798f: 19 ms
+22:09:21.788 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@165b2f7f: 16 ms
+22:09:21.800 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2b491fee: 12 ms
+22:09:21.800 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@3f1c5af9: 0 ms
+22:10:13.863 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Anil kumar N\eclipse-workspace\TutorialsNinja_Project\master.xml
+
+22:10:43.342 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Anil kumar N\eclipse-workspace\TutorialsNinja_Project\master.xml
+
+22:10:50.422 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Start
+22:10:53.681 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
+22:11:28.724 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
+22:11:32.589 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
+22:12:43.555 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\Anil kumar N\eclipse-workspace\TutorialsNinja_Project\Crossbrowing.xml
 
-21:49:20.471 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Start
-21:49:23.421 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
-21:49:45.640 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
-21:49:48.906 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
-21:50:16.388 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Start
-21:50:19.441 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
-21:50:52.602 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
-21:50:56.277 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
-21:51:34.879 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Start
-21:51:37.163 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
-21:52:31.398 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
-21:52:34.518 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
+22:12:52.231 [TestNG-tests-2] INFO  testCases.TC_AR_001 - TC_AR_001 Test Start
+22:12:54.228 [TestNG-tests-1] INFO  testCases.TC_AR_001 - TC_AR_001 Test Start
+22:13:02.402 [TestNG-tests-2] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
+22:13:05.973 [TestNG-tests-3] INFO  testCases.TC_AR_001 - TC_AR_001 Test Start
+22:13:07.257 [TestNG-tests-1] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
+22:13:08.705 [TestNG-tests-3] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
+22:13:58.974 [TestNG-tests-1] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
+22:14:04.180 [TestNG-tests-1] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
+22:14:23.516 [TestNG-tests-2] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
+22:14:32.547 [TestNG-tests-3] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
+22:14:33.709 [TestNG-tests-2] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
+22:14:36.538 [TestNG-tests-3] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished

@@ -16,6 +16,7 @@
       <class name="testCases.TC_NL_005"/>
       <class name="testCases.TC_RPF_006"/>
       <class name="testCases.TC_WPWD_007"/>
+      <class name="testCases.TC_RMAIL__008"/>
     </classes>
   </test> <!-- Test -->
   
@@ -31,6 +32,7 @@
       <class name="testCases.TC_NL_005"/>
       <class name="testCases.TC_RPF_006"/>
       <class name="testCases.TC_WPWD_007"/>
+      <class name="testCases.TC_RMAIL__008"/>
     </classes>
   </test> <!-- Test -->
   
@@ -47,6 +49,7 @@
       <class name="testCases.TC_NL_005"/>
       <class name="testCases.TC_RPF_006"/>
       <class name="testCases.TC_WPWD_007"/>
+      <class name="testCases.TC_RMAIL__008"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

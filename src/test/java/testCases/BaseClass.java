@@ -37,7 +37,7 @@ public void Setup(String os, String br) throws IOException
 	case "chrome":driver=new ChromeDriver();break;
 	case "edge":driver=new EdgeDriver();break;
 	case "firefox" : driver=new FirefoxDriver();break;
-	default :System.out.println("Invalid Browser"); //Here return() do if browser is invalid it will stop executing the rest of the code
+	default :System.out.println("Invalid Browser");return; //Here return() do if browser is invalid it will stop executing the rest of the code
 	}
  	 driver.manage().deleteAllCookies();
      driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

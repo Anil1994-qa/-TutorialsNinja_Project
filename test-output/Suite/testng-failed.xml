@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="ChromeTest(failed)">
-    <parameter name="os" value="windows"/>
-    <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="Edge"/>
     <classes>
+      <class name="testCases.TC_RMAIL__008">
+        <methods>
+          <include name="VerifyRegisterAccountWithRepeatEmail"/>
+          <include name="tearDown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- testCases.TC_RMAIL__008 -->
       <class name="testCases.TC_RF_004">
         <methods>
-          <include name="Setup"/>
           <include name="tearDown"/>
+          <include name="Setup"/>
           <include name="verifyRegisterAccountWithoutDetails"/>
         </methods>
       </class> <!-- testCases.TC_RF_004 -->
@@ -35,116 +41,6 @@
       </class> <!-- testCases.TC_NL_005 -->
       <class name="testCases.TC_SP_003">
         <methods>
-          <include name="tearDown"/>
-          <include name="Setup"/>
-          <include name="SearchProduct"/>
-        </methods>
-      </class> <!-- testCases.TC_SP_003 -->
-      <class name="testCases.TC_RPF_006">
-        <methods>
-          <include name="tearDown"/>
-          <include name="Setup"/>
-          <include name="VerifyRegisterPagesUsingMultipleWays"/>
-        </methods>
-      </class> <!-- testCases.TC_RPF_006 -->
-      <class name="testCases.TC_WPWD_007">
-        <methods>
-          <include name="Setup"/>
-          <include name="tearDown"/>
-          <include name="VerifyWorngPwdMsg"/>
-        </methods>
-      </class> <!-- testCases.TC_WPWD_007 -->
-    </classes>
-  </test> <!-- ChromeTest(failed) -->
-  <test thread-count="5" name="EdgeTest(failed)">
-    <parameter name="os" value="windows"/>
-    <parameter name="browser" value="edge"/>
-    <classes>
-      <class name="testCases.TC_RF_004">
-        <methods>
-          <include name="tearDown"/>
-          <include name="Setup"/>
-          <include name="verifyRegisterAccountWithoutDetails"/>
-        </methods>
-      </class> <!-- testCases.TC_RF_004 -->
-      <class name="testCases.TC_LT_002">
-        <methods>
-          <include name="verifylogin"/>
-          <include name="tearDown"/>
-          <include name="Setup"/>
-        </methods>
-      </class> <!-- testCases.TC_LT_002 -->
-      <class name="testCases.TC_AR_001">
-        <methods>
-          <include name="tearDown"/>
-          <include name="Setup"/>
-          <include name="verity_account_registration"/>
-        </methods>
-      </class> <!-- testCases.TC_AR_001 -->
-      <class name="testCases.TC_NL_005">
-        <methods>
-          <include name="Setup"/>
-          <include name="tearDown"/>
-          <include name="VerifyRegistringAccountBySubscribingNewsLetter"/>
-        </methods>
-      </class> <!-- testCases.TC_NL_005 -->
-      <class name="testCases.TC_SP_003">
-        <methods>
-          <include name="tearDown"/>
-          <include name="Setup"/>
-          <include name="SearchProduct"/>
-        </methods>
-      </class> <!-- testCases.TC_SP_003 -->
-      <class name="testCases.TC_RPF_006">
-        <methods>
-          <include name="Setup"/>
-          <include name="tearDown"/>
-          <include name="VerifyRegisterPagesUsingMultipleWays"/>
-        </methods>
-      </class> <!-- testCases.TC_RPF_006 -->
-      <class name="testCases.TC_WPWD_007">
-        <methods>
-          <include name="Setup"/>
-          <include name="tearDown"/>
-          <include name="VerifyWorngPwdMsg"/>
-        </methods>
-      </class> <!-- testCases.TC_WPWD_007 -->
-    </classes>
-  </test> <!-- EdgeTest(failed) -->
-  <test thread-count="5" name="firefoxTest(failed)">
-    <parameter name="os" value="windows"/>
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="testCases.TC_RF_004">
-        <methods>
-          <include name="Setup"/>
-          <include name="tearDown"/>
-          <include name="verifyRegisterAccountWithoutDetails"/>
-        </methods>
-      </class> <!-- testCases.TC_RF_004 -->
-      <class name="testCases.TC_LT_002">
-        <methods>
-          <include name="verifylogin"/>
-          <include name="tearDown"/>
-          <include name="Setup"/>
-        </methods>
-      </class> <!-- testCases.TC_LT_002 -->
-      <class name="testCases.TC_AR_001">
-        <methods>
-          <include name="tearDown"/>
-          <include name="Setup"/>
-          <include name="verity_account_registration"/>
-        </methods>
-      </class> <!-- testCases.TC_AR_001 -->
-      <class name="testCases.TC_NL_005">
-        <methods>
-          <include name="Setup"/>
-          <include name="tearDown"/>
-          <include name="VerifyRegistringAccountBySubscribingNewsLetter"/>
-        </methods>
-      </class> <!-- testCases.TC_NL_005 -->
-      <class name="testCases.TC_SP_003">
-        <methods>
           <include name="Setup"/>
           <include name="tearDown"/>
           <include name="SearchProduct"/>
@@ -159,11 +55,11 @@
       </class> <!-- testCases.TC_RPF_006 -->
       <class name="testCases.TC_WPWD_007">
         <methods>
-          <include name="Setup"/>
           <include name="tearDown"/>
+          <include name="Setup"/>
           <include name="VerifyWorngPwdMsg"/>
         </methods>
       </class> <!-- testCases.TC_WPWD_007 -->
     </classes>
-  </test> <!-- firefoxTest(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
