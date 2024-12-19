@@ -1,0 +1,54 @@
+22:09:21.743 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@1433046b: 16 ms
+22:09:21.772 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@65a4798f: 19 ms
+22:09:21.788 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@165b2f7f: 16 ms
+22:09:21.800 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2b491fee: 12 ms
+22:09:21.800 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@3f1c5af9: 0 ms
+22:10:13.863 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Anil kumar N\eclipse-workspace\TutorialsNinja_Project\master.xml
+
+22:10:43.342 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Anil kumar N\eclipse-workspace\TutorialsNinja_Project\master.xml
+
+22:10:50.422 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Start
+22:10:53.681 [main] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
+22:11:28.724 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
+22:11:32.589 [main] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
+22:12:43.555 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Anil kumar N\eclipse-workspace\TutorialsNinja_Project\Crossbrowing.xml
+
+22:12:52.231 [TestNG-tests-2] INFO  testCases.TC_AR_001 - TC_AR_001 Test Start
+22:12:54.228 [TestNG-tests-1] INFO  testCases.TC_AR_001 - TC_AR_001 Test Start
+22:13:02.402 [TestNG-tests-2] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
+22:13:05.973 [TestNG-tests-3] INFO  testCases.TC_AR_001 - TC_AR_001 Test Start
+22:13:07.257 [TestNG-tests-1] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
+22:13:08.705 [TestNG-tests-3] INFO  testCases.TC_AR_001 - TC_AR_001 Test Finish
+22:13:58.974 [TestNG-tests-1] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
+22:14:04.180 [TestNG-tests-1] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
+22:14:23.516 [TestNG-tests-2] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
+22:14:32.547 [TestNG-tests-3] INFO  testCases.TC_NL_005 - TC_NL_005 Test Is Started
+22:14:33.709 [TestNG-tests-2] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
+22:14:36.538 [TestNG-tests-3] INFO  testCases.TC_NL_005 - TC_NL_005 Test is Finished
+22:18:12.063 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:18:12.140 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+22:18:12.144 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:18:12.144 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:18:12.147 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:18:12.147 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:18:12.148 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:18:12.149 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:18:12.156 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+22:18:12.173 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 16 ms.
+22:18:12.177 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+22:18:12.179 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:18:12.181 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:18:12.181 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:18:12.183 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:18:12.185 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:18:12.188 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:18:12.189 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:18:12.190 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:18:12.190 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:18:12.196 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:18:12.196 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:18:12.196 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:18:12.196 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
