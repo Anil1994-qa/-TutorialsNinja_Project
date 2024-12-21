@@ -15,7 +15,8 @@
       <class name="testCases.TC_NL_005"/>
       <class name="testCases.TC_RPF_006"/>
       <class name="testCases.TC_WPWD_007"/>
-      <class name="testCases.TC_RMAIL__008"/>
+      <class name="testCases.TC_RMAIL_008"/>
+     <class name="testCases.TC_RFPH_10"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

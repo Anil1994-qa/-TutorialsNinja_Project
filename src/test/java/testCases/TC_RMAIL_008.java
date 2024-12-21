@@ -6,7 +6,7 @@ import junit.framework.Assert;
 import pageObjects.AccountRigesterPage;
 import pageObjects.HomePage;
 
-public class TC_RMAIL__008 extends BaseClass {
+public class TC_RMAIL_008 extends BaseClass {
 @Test	
 public void VerifyRegisterAccountWithRepeatEmail()
 {

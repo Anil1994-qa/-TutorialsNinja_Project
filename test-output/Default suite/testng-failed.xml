@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_AR_001">
+      <class name="testCases.TC_RFPH_09">
         <methods>
+          <include name="VerifyPlaceHolderinRAPage"/>
           <include name="Setup"/>
           <include name="tearDown"/>
-          <include name="verity_account_registration"/>
         </methods>
-      </class> <!-- testCases.TC_AR_001 -->
+      </class> <!-- testCases.TC_RFPH_09 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

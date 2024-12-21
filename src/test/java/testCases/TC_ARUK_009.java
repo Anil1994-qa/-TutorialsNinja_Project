@@ -11,7 +11,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class TC_ARMK_009 {
+public class TC_ARUK_009 {
 @Test
 	
 public void RegisterAccountwithUsingkeyboardMouseAction() 
